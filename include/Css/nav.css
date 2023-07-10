@@ -1,0 +1,35 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  background-color: #2d2d2d;
+  align-items: center;
+  padding: 0 5em;
+}
+
+.nav_container span {
+  display: flex;
+  gap: 2em;
+}
+
+.nav_container a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav_container > a {
+  font-size: 2rem;
+  color: bisque;
+}
+
+.nav_container a:last-child {
+  color: #2d2d2d;
+  background-color: red;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 15px;
+  text-align: center;
+}
